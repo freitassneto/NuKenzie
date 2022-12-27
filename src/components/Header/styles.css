@@ -1,0 +1,27 @@
+.header {
+  height: 88px;
+  display: flex;
+  box-shadow: 3px -1px 15px 3px rgba(0, 0, 0, 0.22);
+}
+
+.header button {
+  height: 40px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-grey-2);
+  border: 1px solid var(--color-grey-2);
+  border-radius: var(--radius-2);
+  color: var(--color-grey-4);
+  font-weight: var(--weigth-1);
+}
+
+.header button:hover {
+  background-color: var(--color-grey-4);
+  color: var(--color-grey-1);
+}
+.header button:focus {
+  background-color: var(--color-primary);
+  border: 1.4px solid var(--color-primary);
+  color: var(--color-grey-1);
+}

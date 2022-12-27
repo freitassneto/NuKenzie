@@ -1,0 +1,7 @@
+.valueList h3 {
+  font-size: var(--title-2);
+  font-weight: var(--weigth-1);
+}
+.valueList img {
+  width: 80%;
+}

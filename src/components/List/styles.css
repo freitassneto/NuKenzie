@@ -1,0 +1,116 @@
+.valueList {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 60%;
+}
+
+.listHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listHeader > h3 {
+  font-size: var(--title-3);
+  font-weight: var(--weigth-1);
+  color: var(--color-grey-4);
+}
+
+.catFilter {
+  display: flex;
+  gap: 16px;
+}
+
+.catFilter button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding: 15px;
+  background-color: var(--color-grey-2);
+  border: 1.4px solid var(--color-grey-2);
+  border-radius: var(--radius-2);
+
+  font-size: 0.85rem;
+  font-weight: var(--weigth-3);
+  color: var(--color-grey-4);
+}
+
+.catFilter button:hover {
+  background-color: var(--color-grey-4);
+  color: var(--color-grey-1);
+}
+
+.catFilter button:focus {
+  background-color: var(--color-primary);
+  border: 1.4px solid var(--color-primary);
+  color: var(--color-grey-1);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  position: relative;
+  background-color: var(--color-grey-1);
+  border-radius: var(--radius-1);
+}
+
+.card:hover {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.14);
+}
+
+.entry {
+  border-left: 4px solid var(--color-secondary);
+}
+
+.exit {
+  border-left: 4px solid var(--color-grey-3);
+}
+
+.trashBtn {
+  position: absolute;
+  top: 18px;
+  right: 13px;
+  width: 22px;
+  height: 22px;
+  border: none;
+  border-radius: var(--radius-0);
+  background-image: url(../../assets/trash.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--color-grey-2);
+}
+
+.trashBtn:hover {
+  background-image: url(../../assets/trashW.svg);
+  background-color: var(--color-grey-4);
+}
+
+.divCard {
+  display: flex;
+}
+
+.divCard h3 {
+  font-size: var(--title-3);
+  font-weight: var(--weigth-1);
+  color: var(--color-grey-4);
+}
+
+.divCard p {
+  font-size: var(--title-4);
+  font-weight: var(--weigth-4);
+  color: var(--color-grey-4);
+  position: absolute;
+  top: 18px;
+  right: 102px;
+}
+
+.valueType {
+  font-size: var(--title-4);
+  font-weight: var(--weigth-4);
+  color: var(--color-grey-3);
+}

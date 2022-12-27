@@ -1,0 +1,23 @@
+.divTotal {
+  margin-top: 1rem;
+  padding: 20px 24px;
+  border: 1px solid var(--color-grey-2);
+  border-radius: var(--radius1);
+}
+
+.divTotal > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.divTotal > div h3 {
+  font-size: var(--title-3);
+  font-weight: var(--weigth-1);
+  color: var(--color-grey-4);
+}
+
+.divTotal > div p {
+  font-size: var(--title-3);
+  font-weight: var(--weigth-1);
+  color: var(--color-primary);
+}
